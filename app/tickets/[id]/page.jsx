@@ -1,5 +1,5 @@
 async function getTicket(id) {
-    const res = await fetch(`http://localhost:4000/tickets/${id}`, {
+    const res = await fetch('http://localhost:4000/tickets/'+ id, {
       next: {
         revalidate: 60
       }
@@ -10,7 +10,6 @@ async function getTicket(id) {
   
   
   export default async function TicketDetails({ params }) {
-    // const id = params.id
     const ticket = await getTicket(params.id)
   
     return (

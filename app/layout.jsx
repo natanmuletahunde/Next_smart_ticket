@@ -4,9 +4,9 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 const rubik = Rubik({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
 
 export const metadata = {
   title: "Create Next App",
