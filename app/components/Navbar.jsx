@@ -5,7 +5,7 @@ import Logo from './dojo-logo.png'
 const Navbar = () => {
   return (
     <nav> 
-      < Image src={Logo} 
+      < Image src={Logo}  
       alt='Dojo HelpDesk logo' 
       width={70}
       quality={100}
