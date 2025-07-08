@@ -9,7 +9,6 @@ async function getTickets() {
 
   return res.json()
 }
-
 export default async function TicketList() {
   const tickets = await getTickets()
 

@@ -8,4 +8,9 @@ export default function NotFound() {
       <p>Go back to all <Link href="/tickets">tickets</Link>.</p>
     </main>
   )
-}
+}  
+
+
+
+
+
