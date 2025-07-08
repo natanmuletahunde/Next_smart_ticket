@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const CreateTicket = () => {
   return (
     <div>
-        
-    </div>
+     Created Form 
+    </div> 
   )
 }
 
-export default page
+export default CreateTicket
