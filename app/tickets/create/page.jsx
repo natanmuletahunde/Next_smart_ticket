@@ -1,11 +1,10 @@
-import React from 'react'
+import CreateForm from './CreateForm'
 
-const CreateTicket = () => {
+export default async function CreateTicket() {
   return (
-    <div>
-     Created Form 
-    </div> 
+    <main>
+      <h2 className="text-center">Open a New Ticket</h2>
+      <CreateForm />
+    </main>
   )
 }
-
-export default CreateTicket
